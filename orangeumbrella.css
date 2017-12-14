@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Eczar:500|Lato');
+
+body {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+  color: #000;
+  font-size: 14px;
+  margin: 50px;
+  background-image: url("bg.png");
+  background-attachment: fixed;
+}
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+
+  /* transform: rotate(1.25deg); */
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #ccc;
+}
+
+h1 {
+  font-family: "Bad Script" , cursive;
+  font-weight: 500;
+  font-size: 60px;
+  color: #000099;
+}
+
+h2 {
+  font-family: "Eczar", serif;
+  font-weight: 400;
+  color: #000099;
+}
+
+h3 {
+  font-family: "Eczar" , serif;
+  font-weight: 300;
+}
+
+/*.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  grid-gap: 20px;
+}*/
+
+
+header {
+  font-family: "Lato" , "Helvetica" , "Arial", sans-serif;
+  font-size: 18px;
+  background-image: url("logo.png");
+  background-repeat: no-repeat;
+  background-position: right top -1px;
+  min-height: 125px;
+}
+
+header h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 40px;
+}
+
+#media-kit {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+article h3,
+article p {
+  margin: 0;
+}
+
+footer {
+
+}
